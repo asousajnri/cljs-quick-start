@@ -1,0 +1,9 @@
+{:deps true
+ :dev-http {1400 "public/"}
+ :nrepl {:port 9000
+         :init-ns cljs-quick-start.core}
+ :builds {:app {:output-dir "public/js"
+                :target :browser
+                :asset-path "."
+                :after-load {:after-load cljs-quick-start.core/after-load!}
+                :modules {:main {:init-fn cljs-quick-start.core/main!}}}}}

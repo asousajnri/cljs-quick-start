@@ -1,0 +1,7 @@
+.idea
+.shadow-cljs
+.cpcache
+.nrepl-port
+cljs-quick-start.iml
+node_modules/
+public/js
