@@ -5,3 +5,4 @@
 cljs-quick-start.iml
 node_modules/
 public/js
+.DS_Store
