@@ -1,7 +1,7 @@
 {:deps true
  :dev-http {1400 "public/"}
  :nrepl {:port 9000
-         :init-ns cljs-quick-start.core}
+         :init-ns shadow.user}
  :builds {:app {:output-dir "public/js"
                 :target :browser
                 :asset-path "."
